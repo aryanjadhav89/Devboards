@@ -25,4 +25,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ vars.DOCKERHUB_USERNAME }}/devboard-fe-master:latest
+          tags: ${{ vars.DOCKERHUB_USERNAME }}/devboard-fe-main:latest
